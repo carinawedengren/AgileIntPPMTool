@@ -6,8 +6,6 @@ import io.agileintelligence.ppmtool.repositories.ProjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Locale;
-
 @Service
 public class ProjectService {
 
@@ -25,7 +23,15 @@ public class ProjectService {
         } catch (Exception e) {
             throw new ProjectIdException("Project ID '" + project.getProjectIdentifier().toUpperCase()+"' already exists");
         }
+    }
 
+    public Project findProjectByIdentifier(String projectId) {
 
+        Project project = projectRepository.findByProjectIdentifier(projectId.toUpperCase());
+
+        if (project == null) {
+            throw new ProjectIdException("Project ID '" +projectId+"' does not exists");
+        }
+        return project;
     }
 }

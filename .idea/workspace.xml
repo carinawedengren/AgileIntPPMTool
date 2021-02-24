@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b15da6-d64a-45dd-a9da-f4b1b65d22a2" name="Default Changelist" comment="" />
+    <list default="true" id="56b15da6-d64a-45dd-a9da-f4b1b65d22a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/client/src/components/Project/AddProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Project/AddProject.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -78,6 +80,7 @@
       <workItem from="1613133460065" duration="4835000" />
       <workItem from="1613389872809" duration="9055000" />
       <workItem from="1614069166569" duration="137000" />
+      <workItem from="1614085970650" duration="85000" />
     </task>
     <servers />
   </component>
